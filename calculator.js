@@ -41,10 +41,6 @@ function appendNumber(number) {
   display.textContent += number;
 }
 
-equalsButton.addEventListener('click', () => {
-  console.log("testing");
-})
-
 digits.forEach((button) => {
   button.addEventListener("click", () => {
     appendNumber(button.textContent);
