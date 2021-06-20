@@ -1,0 +1,51 @@
+#calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    border: solid;
+    padding: 5px;
+
+}
+
+#display {
+    width: 98.5%;
+    height: 10vh;
+    display: flex;
+    border: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonContainer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+#digitContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+}
+
+#operatorContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 25%;
+}
+
+.operator {
+    background-color: orange;
+}
+
+#equals {
+    background-color: lightblue;
+}
+
+#clear {
+    background-color: lightblue;
+}
